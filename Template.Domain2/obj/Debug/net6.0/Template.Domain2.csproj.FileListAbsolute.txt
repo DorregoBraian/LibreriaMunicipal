@@ -1,0 +1,14 @@
+C:\Users\Rayan\source\repos\Template.Domain2\bin\Debug\net6.0\Template.Domain2.deps.json
+C:\Users\Rayan\source\repos\Template.Domain2\bin\Debug\net6.0\Template.Domain2.dll
+C:\Users\Rayan\source\repos\Template.Domain2\bin\Debug\net6.0\Template.Domain2.pdb
+C:\Users\Rayan\source\repos\Template.Domain2\obj\Debug\net6.0\Template.Domain2.csproj.AssemblyReference.cache
+C:\Users\Rayan\source\repos\Template.Domain2\obj\Debug\net6.0\Template.Domain2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rayan\source\repos\Template.Domain2\obj\Debug\net6.0\Template.Domain2.AssemblyInfoInputs.cache
+C:\Users\Rayan\source\repos\Template.Domain2\obj\Debug\net6.0\Template.Domain2.AssemblyInfo.cs
+C:\Users\Rayan\source\repos\Template.Domain2\obj\Debug\net6.0\Template.Domain2.csproj.CoreCompileInputs.cache
+C:\Users\Rayan\source\repos\Template.Domain2\obj\Debug\net6.0\Template.Domain2.dll
+C:\Users\Rayan\source\repos\Template.Domain2\obj\Debug\net6.0\refint\Template.Domain2.dll
+C:\Users\Rayan\source\repos\Template.Domain2\obj\Debug\net6.0\Template.Domain2.pdb
+C:\Users\Rayan\source\repos\Template.Domain2\obj\Debug\net6.0\ref\Template.Domain2.dll
+C:\Users\Rayan\source\repos\Template.Domain2\bin\Debug\net6.0\Template.Domain2.runtimeconfig.json
+C:\Users\Rayan\source\repos\Template.Domain2\obj\Debug\net6.0\Template.Domain2.genruntimeconfig.cache
