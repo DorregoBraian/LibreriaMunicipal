@@ -1,0 +1,41 @@
+La API Fetch proporciona una interfaz JavaScript para acceder y manipular partes del canal
+HTTP,tales como peticiones y respuestas.También provee un método global fetch() que
+proporciona una forma fácil y lógica de obtener recursos de forma asíncrona por la red.
+
+Un proceso asíncrono es un proceso o una función que ejecuta una tarea "en segundo plano" sin que el usuario tenga que esperar a que finalice la tarea.
+await siempre funciona si esta en una funcion async. await espera a la respuesta de la API.
+
+
+
+Ejemplo de Funciones Asincronica
+
+const nomObjeto = async () => {
+  try{
+    const res=await fetch('https://pokeapi.co/api/v2/pokemon/')   // consume la API (endPoind)
+    const data=await res.json()                                   // especifico el tipo de dato que voy a gardar en mi variavle data
+    console.log(data.results)
+  }catch(error){
+    console.log(error)
+ }
+}
+obtenerPokemones()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

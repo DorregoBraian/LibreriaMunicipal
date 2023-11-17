@@ -1,0 +1,198 @@
+body {
+    background-color:rgb(84, 84, 84);
+    min-height: 100vh;
+    display: flex;
+    flex-direction : column; 
+    background-size: cover; 
+}
+
+
+/*Header*/
+
+.fondo-header{
+    padding: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.icono-y-titulo-de-inicio{
+    font-size: 15px;
+    color: white;
+    max-width: 25%;
+    display: flex;
+    align-items: center;
+}
+
+.icono-y-titulo-de-inicio img{
+    max-width: 20%;
+    max-height: 20%;
+    display: inline;
+    margin-right: 2%;
+    color: white;
+}
+
+.lista-de-inicio a{
+    text-decoration: none;
+    font-size: 30px;
+    color:white;
+    margin: 15px; 
+}
+.lista-de-inicio a:hover{
+    text-decoration: underline;
+}
+
+.lista-de-inicio ul{
+    list-style-type: none;
+    display: flex;
+}
+
+
+/*Main*/
+
+#main div{
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+.filtro{
+    display: grid;
+    grid-template-columns: 15% 15%;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80px;
+    
+}
+
+.buscador-autor {
+    display: flex;
+    min-width: 150%;
+    align-items: center;
+}
+
+.buscador-autor input{
+    border-radius: 5%;
+    padding: 3%;
+    margin: 2%;
+    width: 70%;
+}
+
+.buscador-autor input:focus{
+    box-shadow: 2px 2px rgb(0, 140, 255) inset, -2px -2px rgb(0, 140, 255) inset;
+}
+
+.buscador-autor button{
+    border-radius: 10%;
+    width: 30%;
+    padding: 3%;
+}
+
+.buscador-autor button:hover{
+    box-shadow: 3px 3px rgb(0, 140, 255) inset, -3px -3px rgb(0, 140, 255) inset;
+}
+
+.buscador-titulo {
+    display: flex;
+    min-width: 150%;
+    align-items: center;
+    
+}
+
+.buscador-titulo input{
+    border-radius: 5%;
+    padding: 3%;
+    margin: 2%;
+    width: 100%;
+    
+}
+
+.buscador-titulo input:focus{
+    box-shadow: 2px 2px 2px rgb(0, 140, 255) inset, -2px -2px 2px rgb(0, 140, 255) inset;
+}
+
+.buscador-titulo button{
+    border-radius: 10%;
+    width: 30%;
+    padding: 3%;
+}
+
+.buscador-titulo button:hover{
+    box-shadow: 3px 3px rgb(0, 140, 255) inset, -3px -3px rgb(0, 140, 255) inset;
+}
+
+#lista-libros{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+#lista-libros div{
+    text-align: center;
+    margin: 5%;
+}
+
+
+#lista-libros img{
+    width: 45%;
+    height: 85%;
+    margin: 2%;
+    border: 3px solid white;
+    transition-duration: 0.5s;
+}
+#lista-libros img:hover{
+    border: 5px solid rgb(0, 140, 255);
+}
+
+#lista-libros h3{
+    font-size: 30px;
+    color: white;
+    padding: 0;
+    margin: 0;
+    text-align:center;
+}
+
+/*Footer*/
+
+#footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: auto;
+}
+
+#footer h3{
+    color: white;
+    font-size: 50px;
+    display: flex;
+    align-items:baseline;
+    justify-content: space-around;
+}
+
+.redes-sociales{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+
+.redes-sociales div{
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.redes-sociales img{
+    max-width: 40%;
+    max-height: 40%;
+}
+
+.redes-sociales a{
+    color: white;
+    font-size: 30px;
+    margin: 10%;
+    text-decoration: none;
+}
+
+.redes-sociales a:hover{
+    text-decoration: underline;
+}

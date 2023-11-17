@@ -1,0 +1,60 @@
+
+
+let algo = document.querySelector("#id"); // funciona con clases ".clase" y por etiqueta "h2", pero trae el primer h2 que encuentra, nunca una lista.
+
+let algo = document.getElementById("id") //sin #
+
+.innerHTML trae el contenido de lo que se busca, ejemplo:
+
+<p id="id1"> contenido </p>
+
+document.getElementById("id1").innerHTML ------> "contenido"
+
+Tambien sirve para cambiar el html, ejemplo
+
+document.getElementById("id").innerHTML = "nuevo contenido";
+
+document.getElementById("id").style.color = "red"; // no es muy usado, pero puede llegar a servir
+
+
+<h1 id="titulo">Libreria<h1>
+
+document.querySelector("titulo").InnerHTML = +"libreria 2"
+
+
+
+document.querySelectorAll(".clase") //  devuelve un array de todos los objetos indicados en el parametro
+
+------------------------------------------------------------------------
+
+FOREACH en js
+
+nombreLista.forEach((e)=>{ e.atributo = "nuevo_atributo";});
+
+nombreLista.forEach( (e) => {
+	e.atributo = "nuevo_atributo";
+});
+
+-------------------------------------------------------------------------
+
+agregar elemento en el html desde js
+
+1) crear etiqueta.
+
+ let elemento = document.createElement("h3");
+
+2) crear contenido.
+
+ let contenido = document.createTextNode("string para el h3");
+
+3) match
+
+elemento.appendChild(contenido);
+
+4) posicionar en html
+
+document.getElementById("cajaDondeVaElh3").appendChild(elemento);
+
+--------------------------------------------------------------------------
+
+Video del manejo de DOM, justo al final final, consume api

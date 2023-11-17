@@ -1,0 +1,146 @@
+body {
+    background-color:rgb(84, 84, 84);
+    min-height: 100vh;
+    display: flex;
+    flex-direction : column;
+    background-size: cover;
+}
+
+/*Header.css*/
+
+.fondo-header{
+    padding: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.icono-y-titulo-de-inicio{
+    font-size: 15px;
+    color: white;
+    max-width: 25%;
+    display: flex;
+    align-items: center;
+}
+
+.icono-y-titulo-de-inicio img{
+    max-width: 20%;
+    max-height: 20%;
+    display: inline;
+    margin-right: 2%;
+    color: white;
+}
+
+.lista-de-inicio a{
+    text-decoration: none;
+    font-size: 30px;
+    color:white;
+    margin: 15px; 
+}
+.lista-de-inicio a:hover{
+    text-decoration: underline;
+}
+
+.lista-de-inicio ul{
+    list-style-type: none;
+    display: flex;
+}
+
+/*Main.css*/
+
+.libro{
+    display: grid;
+    grid-template-columns:30% auto 20%;
+}
+
+.botones{
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+}
+
+.botones button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 150%;
+    text-align: center;
+    border-radius:10%;
+    border: solid white;
+    background-color: rgb(255, 150, 0);
+    padding: 2%;
+    margin-left: 20%;
+    min-height: 15%;
+    max-width: 60%;
+
+}
+
+.libro img{
+    width: 55%;
+    margin-left: 20%;
+    margin-top: 10%;
+    box-shadow: 8px 8px 8px white;
+}
+
+.libro h2{
+    color: white;
+    font-size: 350%;
+    text-align: center;
+}
+.libro h3{
+    color: white;
+    font-size: 220%;
+    text-align:start;
+}
+
+#main p{
+    color: white;
+    font-size: 180%;
+    margin: 2%;
+}
+
+/*Footer.css*/
+
+#footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: auto;
+}
+
+#footer h3{
+    color: white;
+    font-size: 50px;
+    display: flex;
+    align-items:baseline;
+    justify-content: space-around;
+}
+
+.redes-sociales{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+
+.redes-sociales div{
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.redes-sociales img{
+    max-width: 40%;
+    max-height: 40%;
+}
+
+.redes-sociales a{
+    color: white;
+    font-size: 30px;
+    margin: 10%;
+    text-decoration: none;
+}
+
+.redes-sociales a:hover{
+    text-decoration: underline;
+}
+

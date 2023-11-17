@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Libreria Municipal</title>
+    <link rel="icon" type="image/png" href="Imagenes/Libreria-icon.png">
+    <link rel="stylesheet" href="Libro.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+<body>
+    <header id="header">
+        <div class="fondo-header">
+            <div class="icono-y-titulo-de-inicio">
+                <img src="Imagenes/Libreria-icon-init.png" alt="icons Libreria">
+                <h1>Libreria Municipal de Proyecto Software</h1>
+            </div>
+            <nav class="lista-de-inicio">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="Perfil Usuario.html?dni=">Perfil de Usuario</a></li>
+                    <li><a href="Lista de Libros.html?titulo=&autor=">Lista de Libros</a></li>
+                    <li><a href="index.html#noticias">Noticias</a></li>
+                </ul>
+            </nav>
+        </div>
+        <hr>
+    </header>
+    <main id="main">
+        <div class="libro">
+            <img id="imagen-libro" alt="Libro">
+            <div>
+                <h2 id="titulo">Harry Potter</h2>
+                <h3>Autor: <span id="autor"></span></h3>
+                <h3>Editorial: <span id="editorial"></span></h3>
+                <h3>Edicion: <span id="edicion"></span></h3>
+                <h3>ISBN: <span id="isbn"></span></h3>
+            </div>
+            <div class="botones">
+                <button id="alquilar">Alquilar</button></a>
+                <button id="reservar">Reservar</button></a>
+            </div>
+        </div>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        <hr>
+    </main>
+    <footer id="footer">
+        <h3 class="info"> Informacion</h3>
+        <div class="redes-sociales">
+            <div>
+                <img src="Imagenes/Instagram.png" alt="Imagen de Instagram">
+                <h4><a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a></h4>
+            </div>
+            <div>
+                <img src="Imagenes/Facebook.png" alt="Imagen de Facebook">
+                <h4><a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">Facebook</a></h4>
+            </div>
+            <div>
+                <img src="Imagenes/Twitter.png" alt="Imagen de Twitter">
+                <h4><a href="https://www.twitter.com/" target="_blank" rel="noopener noreferrer">Twitter</a></h4>
+            </div>
+            <div>
+                <img src="Imagenes/Whatsapp.png" alt="Imagen de Whatsapp">
+                <h4><a href="https://web.whatsapp.com/" target="_blank" rel="noopener noreferrer">Whatsapp</a></h4>
+            </div>
+        </div>
+    </footer>
+    <script src="Libro.js" type="module"></script>
+</body>
+</html>

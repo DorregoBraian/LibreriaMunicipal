@@ -1,0 +1,146 @@
+EI DOM da una representación del documento como un grupo de nodosyobjetos estructurados que
+tienen propiedadesymétodos.Esencialmente,conecta las páginas webascriptsolenguajes de
+programación. es la forma en que JS se comunica con un archivo HTML.
+
+#Document
+ •https://developer.mozilla.org/
+ •Cuando un documento HTML se carga en un navegador web,se convierte en un objeto de
+  documento.
+ •El objeto de documento es el nodo raíz del documento HTML.
+ •La interfaz Document representa cualquer página web cargada en el navegadorysirve como punto
+  de entrada al contenido de la página(El árbol DOM).
+ •El DOM incluye elementos como<body>y<table>),entre muchos otros,yproporciona
+  funcionalidad que es global al documento,como obtener la URL de la páginaycrear nuevos
+  elementos en el documento.
+
+Sintaxis
+console.log(document);   // visualiza el documento HTML
+
+#Buscar elementos HTML
+
+*document.getElementById()
+solo puede buscar por nombres de los ID. se quita el # al buscarlo. Nota: getElementById() es mas rapido que querySelector().
+document.querySelector('nomId')
+
+*document.querySelector()
+seleciona una etiqueta(selector) del HTML ejm h1,h2,ol,ul,id,class
+para etiquetas solo ponemos la etiqueta entre comillas simples, para clases un punto antes de la etiqueta, para los id un #.
+
+document.querySelector('h3')
+document.querySelector('.nomClass')
+document.querySelector('#nomId')
+
+*document.querySelectorAll()
+seleciona todos los elementos que se encuentran en el archivos HTML
+
+document.querySelectorAll('h3') // trae todos los h3 que se encuentran en el HTML                          L
+
+#Element
+Una vez que tenemos el elemento podemos modificarlo.
+*Accedemos al elemento
+
+modifica el contenido de la etiqueta con .textContent
+document.getElementById('nomId').textContent = 'hola mundo'   // modifica el documento con el id nomId por hola mundo 
+
+opcion 2: con .innerHTML podemos hacer lo mismo sono que esta te permiote poner etiquetas
+document.getElementById('nomId').textContent = '<b>hola mundo</b>'   // hola mundo en negrita
+
+*Modificamos el elemento
+Agregamos una clase adicional a una etiqueta 
+document.getElementById('nomId').classList.add("clase-adicional");   // a la etiqueta con el id nomId se le agrega una clase clase-adicional.
+
+#createElement()
+En un documento HTML, el método document.createElement() crea un elemento HTML especificado por su tagName.
+ document.createElement('ul');  //crea una lista
+ document.createElement('h1');  //crea un h1
+
+#appendChild()
+incorpora en su nodo hijo el elemento indicado por parametro
+sintaxis
+
+ // elemento donde vamos a incorporar los <li>
+  const lista = document.getElementById("lista-dinamica");
+
+  // Creamos el <li>
+  const li = document.createElement("li");
+
+  // Agregamos texto al <li>
+  li.textContent = "Mi <li> dinámico";
+
+  // Finalmente incorporamos al <ul>
+  lista.appendChild(li);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

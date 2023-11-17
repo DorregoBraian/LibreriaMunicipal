@@ -1,0 +1,172 @@
+body {
+    background-color:rgb(84, 84, 84);
+    min-height: 100vh;
+    display: flex;
+    flex-direction : column;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+
+
+/*Header.css*/
+
+.fondo-header{
+    padding: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.icono-y-titulo-de-inicio{
+    font-size: 15px;
+    color: white;
+    max-width: 25%;
+    display: flex;
+    align-items: center;
+}
+
+.icono-y-titulo-de-inicio img{
+    max-width: 20%;
+    max-height: 20%;
+    display: inline;
+    margin-right: 2%;
+    color: white;
+}
+
+.lista-de-inicio a{
+    text-decoration: none;
+    font-size: 30px;
+    color:white;
+    margin: 15px; 
+}
+.lista-de-inicio a:hover{
+    text-decoration: underline;
+}
+
+.lista-de-inicio ul{
+    list-style-type: none;
+    display: flex;
+}
+
+
+/*main*/
+
+.usuario {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    align-items: center;
+    grid-column-gap: 5%;
+}
+
+.carnet{
+    border-radius: 10%;
+    border: solid white;
+    background-color:burlywood;
+    max-height:90% ;
+    max-width: 80%;
+    margin-left: 10%;
+    display: flex;
+    align-items: center;
+    justify-items: end;
+}
+
+.carnet img{
+    border-radius: 50%;
+    border: solid black;
+    background-color: gray;
+    margin: 5%;
+    padding: 0;
+}
+
+
+.carnet h3{
+    font-size: 150%;
+    margin: 0;
+}
+
+.lista h2{
+    font-size: 250%;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.lista img{
+    margin-left: 5%;
+    border: 5px solid white;
+    margin: 1%;
+    width: 12%;
+    height: 22%;
+}
+
+#alquileres{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-right: 10%;
+    border-radius: 20px;
+    border: solid white;
+    background: rgba(128, 128, 128, 0.70);
+    min-width: 90%;
+    min-height: 250px;
+}
+
+#reservas{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-right: 10%;
+    border-radius: 20px;
+    border: solid white;
+    background: rgba(128, 128, 128, 0.70);
+    min-width: 90%;
+    min-height: 250px;
+}
+
+/*Footer.css*/
+
+#footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: auto;
+
+}
+
+#footer h3{
+    color: white;
+    font-size: 50px;
+    display: flex;
+    align-items:baseline;
+    justify-content: space-around;
+}
+
+.redes-sociales{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+
+.redes-sociales div{
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.redes-sociales img{
+    max-width: 40%;
+    max-height: 40%;
+}
+
+.redes-sociales a{
+    color: white;
+    font-size: 30px;
+    margin: 10%;
+    text-decoration: none;
+}
+
+.redes-sociales a:hover{
+    text-decoration: underline;
+}
+

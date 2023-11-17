@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Libreria Municipal</title>
+    <link rel="icon" type="image/png" href="Imagenes/Libreria-icon.png">
+    <link rel="stylesheet" href="Lista de Libros.css">
+</head>
+<body>
+    <header id="header">
+        <div class="fondo-header">
+            <div class="icono-y-titulo-de-inicio">
+                <img src="Imagenes/Libreria-icon-init.png" alt="icons Libreria">
+                <h1>Libreria Municipal de Proyecto Software</h1>
+            </div>
+            <nav class="lista-de-inicio">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="Perfil Usuario.html?dni=">Perfil de Usuario</a></li>
+                    <li><a href="Lista de Libros.html?titulo=&autor=">Lista de Libros</a></li>
+                    <li><a href="index.html#noticias">Noticias</a></li>
+                </ul>
+            </nav>
+        </div>
+        <hr>
+    </header>
+    <main id="main">
+        <div class="boton-busqueda">
+            <form class="filtro" action="Lista de Libros.html?">
+                <div class="buscador-autor">
+                    <input id="filtro-autor" type="text" name="autor" placeholder="Busqueda por Autor">
+                </div>
+                <div class="buscador-titulo">
+                    <input id="filtro-titulo" type="text" name="titulo" placeholder="Busqueda por Titulo">
+                    <button id="boton-titulo" type="submit">Buscar</button>
+                </div>
+            </div>
+        </div>
+        <div id="lista-libros">
+            
+        </div>
+        <hr>
+    </main>
+    <footer id="footer">
+        <h3 class="info"> Informacion</h3>
+        <div class="redes-sociales">
+            <div>
+                <img src="Imagenes/Instagram.png" alt="Imagen de Instagram">
+                <h4><a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a></h4>
+            </div>
+            <div>
+                <img src="Imagenes/Facebook.png" alt="Imagen de Facebook">
+                <h4><a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">Facebook</a></h4>
+            </div>
+            <div>
+                <img src="Imagenes/Twitter.png" alt="Imagen de Twitter">
+                <h4><a href="https://www.twitter.com/" target="_blank" rel="noopener noreferrer">Twitter</a></h4>
+            </div>
+            <div>
+                <img src="Imagenes/Whatsapp.png" alt="Imagen de Whatsapp">
+                <h4><a href="https://web.whatsapp.com/" target="_blank" rel="noopener noreferrer">Whatsapp</a></h4>
+            </div>
+        </div>
+    </footer>
+    <script src="Lista de Libros.js"></script>
+</body>
+</html>

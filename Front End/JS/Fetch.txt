@@ -1,0 +1,28 @@
+
+JSON.stringify(archivoJson); // convierte un JSON en un string
+
+JSON.parse(string); //convierte un string en JSON
+
+
+/* ---------------------- Asi se traen datos desde una API con Fetch ---------------------*/
+
+En HTML:
+
+<h1>Titulo: <span id=at1> </span></h1>
+<h2>Titulo:<span id=at2> </span></h2>
+<h3>Titulo:<span id=at3> </span></h3>
+
+
+
+En JS:
+
+async function nombreMetodo(){
+	const response = await fetch('https://api.endpoint.com'); // se conecta al endpoint
+	const data = await response.json(); //guarda los datos que devuelve el endpoint.
+	
+	const {atributo1, atributo2, atributo3} = data;  // los atributos tienen que tener el mismo nombre que el atributo recibido en JSON
+	
+	document.getElementById('at1').textContent=atributo1;
+	document.getElementById('at2').textContent=atributo2;
+	document.getElementById('at3').textContent=atributo3;
+}

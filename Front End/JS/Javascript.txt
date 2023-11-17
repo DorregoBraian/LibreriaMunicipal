@@ -1,0 +1,109 @@
+diferencia entre var, let y const (declarar variavles)
+var: permite declarar variavles con el mismo nombre pero siempre returna el valor de la ultima que se creada.
+
+var edad = 10
+var edad = 20
+console.log(edad) // 20
+
+let:no permite delcarar variavle con mismo nombre. pero se puede modificar si se encuentra en un cuerpo ej cuerpo ir for wihle.
+
+let edad = 10
+let edad = 20
+console.log(edad) // error
+edad = 20
+console.log(edad) // 20
+
+const:es una constante que no cambia con el tiempo por ende no puede ser modificada (si se encuentra en un cuerpo SI ej cuerpo ir, for, wihle, objetos, array)
+
+const edad = 10
+console.log(edad) // error
+edad = 10
+console.log(edad) // error
+
+Fuenciones
+declaramos funciones con la palabra clave function, llamamos a la funcion por su nombre y poniendo los parametros que nesesita.
+ 
+function nombreDeFuncion (parametro1, parametro2) {
+  console.log(10)  //
+}
+nombreDeFuncion()  // 10 
+
+Fuenciones con Flecha
+declaramos funciones con la palabra clave const, llamamos a la funcion por su nombre y poniendo los parametros que nesesita.
+se puede omitir los llaves si la funcion retorna algo. si no resive parametro siempre va () vacio y si es un solo parametro se pueden omitir, 
+si son mas de dos parametros siempre van con parentesis.
+
+const nombreDeFuncion = (parametro1, parametro2) =>{
+  console.log(10)  //
+}
+nombreDeFuncion()  // 10
+
+Ejempolo 2
+
+const sumarDos=(num1,num2)=>(num1+num2)
+const resultado=sumarDos(20,30)
+console.log(resultado)  // 50
+
+Objetos
+se reconose un objeto por como se define sus parametros con : y no con un =. se separan por comas
+
+const mascota = {
+  nombre: 'Tom',
+  edad: 5,
+  vivo: true
+}
+
+para llamar al objeto 
+console.log(mascota)  // ►Object{nombre:"Tom",edad:10,vivo:true}
+
+para llamar a una propiedad
+console.log(mascota.nombre)  // Tom
+
+para acceder a mas de una propiedad de un objeto que este o no dentro de otro
+const{nomPorpiedad}= nomObjeto
+const{edad,nombre} = mascota
+console.log(nombre)  // Tom
+
+para introducirle una propiedad
+mascota.id=1
+console.log(mascota)  // ►Object{nombre:"Tom",edad:10,vivo:true,id:1}
+
+Map
+El método map() crea un nuevo array con los resultados de la llamada a la función indicada
+aplicados a cada uno de sus elementos. similar al Forech. recore un Array
+
+Sintaxis
+rutaArry.map(nomElemento => rutaElemento)
+data.results.map(poke=>console.log(poke.nombre)) // Picachu, Chicorita, ...
+la ruta del Arry a recorrer es data.results (Array que contiene oje pokemon con porpiedad nombre y links), poke nombre del indice, 
+poke.nombre marca la propiedad el objeto que quiero imprimir
+
+Filter
+
+El método filter()crea un nuevo array con todos los elementos que cumplan la condición
+implementada por la función dada. filtra segun el argumento que pongamos. 
+!== extrictamente distinto
+=== extrictamente igual
+
+data.results.filter(poke=>poke.name!=='bulbasaur')  // devuelve una lista de los nombres de todos los pokemones de la API menos bulbasaur
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
